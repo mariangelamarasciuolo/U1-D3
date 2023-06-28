@@ -4,33 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Ricetta Focaccia</title>
 </head>
 
 <body>
-    <div class="logo">
-        <img src="assets/logo.png" alt="logo simply recipes">
-    </div>
-    <div>
-        <p class="subt">Part of A SIMPLY FABULOUS THANKGIVING</p>
-    </div>
-    <div class="big-content">
-        <h1>Focaccia with Caramelized Onion, Cranberries, and Brie</h1>
-        <p>
-            Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tart
-            cranberries, and creamy brie. It will become your new favorite holiday starter!
-        </p>
-        <img src="assets/focaccia.png" alt="Focaccia" class="focaccia">
-        <figcaption id="figcapt">Image: Sally Vegas</figcaption>
-        <p class="feat">
-            FEATURED IN: <br>
-            <a href="#" id="fresh">Fresh Cranberry Recipes That Go Beyond Sauce</a>
-        </p>
-        <h3>Ingredients</h3>
+    <header>
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="logo simply recipes">
+        </div>
         <div>
+            <p class="subt">Part of <strong>A SIMPLY FABULOUS THANKGIVING</strong></p>
+        </div>
+    </header>
+    <main class="big-content">
+        <!--info generali-->
+        <section>
+            <h1>Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
+            <p>
+                Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tart
+                cranberries, and creamy brie. It will become your new favorite holiday starter!
+            </p>
+            <img src="./assets/img/focaccia.png" alt="Focaccia" class="focaccia">
+            <figcaption class="figcapt">Image: Sally Vegas</figcaption>
+            <div class="feat">
+                FEATURED IN: <br>
+                <a href="#" id="fresh">Fresh Cranberry Recipes That Go Beyond Sauce</a>
+
+            </div>
+        </section>
+        <!--ingredienti della ricetta-->
+        <section>
+            <h3>Ingredients</h3>
             <h4>For the focaccia:</h4>
-            <ul>
+            <ul class="listauno">
                 <li>4 cups (500g) all-purpose flour</li>
                 <li>1 1/2 teaspoons instant yeast</li>
                 <li>1 1/2 teaspoons salt</li>
@@ -38,7 +45,7 @@
                 <li>1/4 cup extra virgin olive oil, plus more for the pan</li>
             </ul>
             <h4>For the topping:</h4>
-            <ul>
+            <ul class="listadue">
                 <li>3 medium yellow onions, thinly sliced</li>
                 <li>1 tablespoon balsamic vinegar</li>
                 <li>1-2 tablespoons olive oil, for brushing on top</li>
@@ -46,16 +53,23 @@
                     necessary)</li>
                 <li>1 1/2 cups fresh or frozen cranberries</li>
             </ul>
-        </div>
-        <h4>Method</h4>
-        <h5>1. Make the focaccia dough</h5>
-        <p>
-            In a medium-sized mixing bowl, or in a stand mixer with a paddle attachment, mix together all the dough
-            ingredients until the flour is fully absorbed. You don't need to actually knead the dough, though I
-            sometimes knead it a few times in the bowl when mixing by hand to incorporate the last of the flour...
-        </p>
-        <p>Read more on <a href="#">Simply recipes</a></p>
-    </div>
+        </section>
+        <!--prcedimento-->
+        <section>
+            <h4 class="method">Method</h4>
+            <h5>1. Make the focaccia dough</h5>
+            <p>
+                In a medium-sized mixing bowl, or in a stand mixer with a paddle attachment, mix together all the dough
+                ingredients until the flour is fully absorbed. You don't need to actually knead the dough, though I
+                sometimes knead it a few times in the bowl when mixing by hand to incorporate the last of the flour...
+            </p>
+            <p>Read more on <a href="#" id="simply">Simply recipes</a></p>
+        </section>
+        <footer>
+            <br>
+            <p>Creato da Mariangela Marasciuolo</p>
+        </footer>
+    </main>
 </body>
 
 </html>
