@@ -1,0 +1,34 @@
+.logo{
+    text-align: center;
+ 
+}
+.logo img{
+    height: 60px;
+}
+.subt{
+    background-color: rgb(255, 217, 0);
+    border-top: rgb(211, 121, 3) 1px solid;
+    text-align: center;
+}
+.big-content {
+    width: 500px;
+    margin: 0 auto;
+}
+.focaccia{
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+}
+#figcapt{
+    text-align: center;
+    color: gray;
+}
+.feat{
+    color: orange;
+    text-align: left;
+    border-left: 2px solid orange;
+    padding-left: 15px;
+}
+#fresh{
+    color: rgb(0, 163, 141);
+}
